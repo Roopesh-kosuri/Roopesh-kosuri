@@ -1,12 +1,12 @@
-<!-- ==================== CYBER HEADER WITH MATRIX RAIN ==================== -->
+<!-- ==================== HEADER WITH MATRIX RAIN (Using a GIF and inline styles) ==================== -->
 <div align="center">
-  <table style="width: 100%; background: #0a0a0f; border: none; border-radius: 16px; overflow: hidden; box-shadow: 0 0 50px rgba(0,255,0,0.2);">
+  <table style="width: 100%; border: none; border-radius: 16px; overflow: hidden; box-shadow: 0 0 50px rgba(0,255,65,0.2);">
     <tr>
-      <td align="center" style="padding: 0; background-image: url('https://media.giphy.com/media/3o7aTskHEUdgCQAXde/giphy.gif'); background-size: cover; background-position: center; height: 280px; position: relative;">
-        <div style="background: rgba(0, 0, 0, 0.6); padding: 60px 20px; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-          <h1 style="font-family: 'Orbitron', sans-serif; font-size: 80px; color: #00ff41; text-shadow: 0 0 20px #00ff41, 0 0 40px #00ff41, 0 0 80px #00cc33; letter-spacing: 8px; margin: 0; animation: glitch 1.5s infinite;">ROOPESH</h1>
+      <td align="center" style="padding: 0; background-image: url('https://media.giphy.com/media/3o7aTskHEUdgCQAXde/giphy.gif'); background-size: cover; background-position: center; height: 280px; background-color: #0a0a0f;">
+        <div style="background: rgba(0, 0, 0, 0.75); padding: 60px 20px; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+          <h1 style="font-family: 'Courier New', monospace; font-size: 76px; color: #00ff41; text-shadow: 0 0 20px #00ff41, 0 0 40px #00ff41; letter-spacing: 6px; margin: 0;">ROOPESH</h1>
           <p style="font-family: 'Courier New', monospace; font-size: 22px; color: #00ff41; text-shadow: 0 0 10px #00ff41; margin: 10px 0 0 0; opacity: 0.9;">
-            <span id="matrix-tagline">// mental status: shipping the things i build :)</span>
+            // mental status: shipping the things i build :)
           </p>
         </div>
       </td>
@@ -14,53 +14,9 @@
   </table>
 </div>
 
-<!-- ==================== GLITCH ANIMATION STYLES ==================== -->
-<style>
-  @keyframes glitch {
-    0% { text-shadow: 0 0 20px #00ff41, 0 0 40px #00ff41, 0 0 80px #00cc33; }
-    20% { text-shadow: 2px 0 #ff00ff, -2px 0 #00ffff, 0 0 20px #00ff41; }
-    40% { text-shadow: -2px 0 #ff00ff, 2px 0 #00ffff, 0 0 30px #00ff41; }
-    60% { text-shadow: 0 0 20px #00ff41, 0 0 40px #00ff41, 0 0 80px #00cc33; }
-    80% { text-shadow: 3px 0 #ff00ff, -3px 0 #00ffff, 0 0 40px #00ff41; }
-    100% { text-shadow: 0 0 20px #00ff41, 0 0 40px #00ff41, 0 0 80px #00cc33; }
-  }
-  .cyber-card {
-    background: linear-gradient(145deg, #0a0a12, #111122);
-    border: 2px solid #00ff41;
-    border-radius: 16px;
-    box-shadow: 0 0 30px rgba(0,255,65,0.15), inset 0 0 30px rgba(0,255,65,0.05);
-    padding: 20px;
-    transition: all 0.3s ease;
-  }
-  .cyber-card:hover {
-    box-shadow: 0 0 60px rgba(0,255,65,0.3), inset 0 0 60px rgba(0,255,65,0.1);
-    transform: scale(1.01);
-  }
-  .cyber-text {
-    color: #00ff41;
-    font-family: 'Courier New', monospace;
-    text-shadow: 0 0 8px rgba(0,255,65,0.3);
-  }
-  .glow-border {
-    border: 2px solid #00ff41;
-    box-shadow: 0 0 25px rgba(0,255,65,0.2);
-  }
-  .matrix-badge {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 8px 16px;
-    border-radius: 30px;
-    border: 1px solid #00ff41;
-    color: #00ff41;
-    font-family: 'Courier New', monospace;
-    font-size: 14px;
-    display: inline-block;
-    margin: 4px;
-  }
-</style>
-
 <br/>
 
-<!-- ==================== ANIMATED TYPING (CYBER) ==================== -->
+<!-- ==================== ANIMATED TYPING (USING EXTERNAL SVG) ==================== -->
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=00FF41&center=true&vCenter=true&width=850&lines=dev.humor+=+'CSS+is+hard+though';dev.motto+=+'Ship+it+and+fix+it+later';dev.status+=+'%3E_+SYSTEM+ONLINE';&background=0A0A12&center=true&vCenter=true&width=850&height=60" alt="Typing SVG" />
@@ -69,19 +25,19 @@
 
 <br/>
 
-<!-- ==================== SOCIAL BADGES (CYBER STYLED) ==================== -->
+<!-- ==================== SOCIAL BADGES (CYBER STYLED USING INLINE STYLES) ==================== -->
 <div align="center">
-  <span class="matrix-badge">▶ YOUTUBE / DEEPDIVE</span>
-  <span class="matrix-badge">🛰 SIGNAL / LIVE</span>
-  <span class="matrix-badge">🐙 GITHUB / ROOPESH-KOSURI</span>
-  <span class="matrix-badge">⚡ SYSTEM / ONLINE</span>
+  <span style="background: rgba(0,0,0,0.7); padding: 8px 18px; border-radius: 30px; border: 1px solid #00ff41; color: #00ff41; font-family: 'Courier New', monospace; font-size: 14px; display: inline-block; margin: 4px;">▶ YOUTUBE / DEEPDIVE</span>
+  <span style="background: rgba(0,0,0,0.7); padding: 8px 18px; border-radius: 30px; border: 1px solid #00ff41; color: #00ff41; font-family: 'Courier New', monospace; font-size: 14px; display: inline-block; margin: 4px;">🛰 SIGNAL / LIVE</span>
+  <span style="background: rgba(0,0,0,0.7); padding: 8px 18px; border-radius: 30px; border: 1px solid #00ff41; color: #00ff41; font-family: 'Courier New', monospace; font-size: 14px; display: inline-block; margin: 4px;">🐙 GITHUB / ROOPESH-KOSURI</span>
+  <span style="background: rgba(0,0,0,0.7); padding: 8px 18px; border-radius: 30px; border: 1px solid #00ff41; color: #00ff41; font-family: 'Courier New', monospace; font-size: 14px; display: inline-block; margin: 4px;">⚡ SYSTEM / ONLINE</span>
 </div>
 
 <br/>
 
 <!-- ==================== BIO CARD (CYBER) ==================== -->
 <div align="center">
-  <table class="cyber-card" style="width: 82%;">
+  <table style="background: linear-gradient(145deg, #0a0a12, #111122); border: 2px solid #00ff41; border-radius: 16px; box-shadow: 0 0 30px rgba(0,255,65,0.15), inset 0 0 30px rgba(0,255,65,0.05); padding: 20px; width: 82%;">
     <tr>
       <td align="center" style="padding: 20px; background: transparent;">
         <table style="width: 100%; background: transparent;">
@@ -111,7 +67,7 @@
 
 <!-- ==================== DIAGNOSTICS (CYBER) ==================== -->
 <div align="center">
-  <table class="cyber-card" style="width: 82%; border-color: #6600ff; box-shadow: 0 0 30px rgba(102,0,255,0.15);">
+  <table style="background: linear-gradient(145deg, #0a0a12, #111122); border: 2px solid #6600ff; border-radius: 16px; box-shadow: 0 0 30px rgba(102,0,255,0.15), inset 0 0 30px rgba(102,0,255,0.05); padding: 20px; width: 82%;">
     <tr>
       <td align="center" style="padding: 20px; background: transparent;">
         <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; font-size: 17px; color: #00ff41; font-family: 'Courier New', monospace;">
@@ -129,9 +85,9 @@
 
 <br/>
 
-<!-- ==================== FLAGSHIP PROJECTS (NEON GRID) ==================== -->
+<!-- ==================== FLAGSHIP PROJECTS ==================== -->
 <div align="center">
-  <h2 style="color: #00ff41; font-family: 'Orbitron', sans-serif; text-shadow: 0 0 20px #00ff41;">🚀 FLAGSHIP BUILDS</h2>
+  <h2 style="color: #00ff41; font-family: 'Courier New', monospace; text-shadow: 0 0 20px #00ff41;">🚀 FLAGSHIP BUILDS</h2>
 </div>
 
 <div align="center">
@@ -191,9 +147,9 @@
 
 <br/>
 
-<!-- ==================== TECH STACK (CYBER) ==================== -->
+<!-- ==================== TECH STACK ==================== -->
 <div align="center">
-  <h2 style="color: #00ff41; font-family: 'Orbitron', sans-serif; text-shadow: 0 0 20px #00ff41;">⚡ SYSTEM.TECHSTACK</h2>
+  <h2 style="color: #00ff41; font-family: 'Courier New', monospace; text-shadow: 0 0 20px #00ff41;">⚡ SYSTEM.TECHSTACK</h2>
 </div>
 
 <div align="center">
@@ -213,7 +169,7 @@
 
 <!-- ==================== STATS + SNAKE ==================== -->
 <div align="center">
-  <h2 style="color: #00ff41; font-family: 'Orbitron', sans-serif; text-shadow: 0 0 20px #00ff41;">📊 SYSTEM.STATS</h2>
+  <h2 style="color: #00ff41; font-family: 'Courier New', monospace; text-shadow: 0 0 20px #00ff41;">📊 SYSTEM.STATS</h2>
 </div>
 
 <div align="center">
@@ -242,6 +198,3 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6600ff,100:0a0a12&height=180&section=footer&text=%3E_%20END%20OF%20LINE&fontSize=28&fontColor=00ff41&animation=twinkling" width="100%" alt="Footer Animation"/>
 </div>
-
-<!-- ==================== MATRIX RAIN OVERLAY (optional extra) ==================== -->
-<!-- The matrix rain GIF is already in the header; adding more would be overkill -->
