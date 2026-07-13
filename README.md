@@ -1,200 +1,132 @@
-<!-- ==================== HEADER WITH MATRIX RAIN (Using a GIF and inline styles) ==================== -->
-<div align="center">
-  <table style="width: 100%; border: none; border-radius: 16px; overflow: hidden; box-shadow: 0 0 50px rgba(0,255,65,0.2);">
-    <tr>
-      <td align="center" style="padding: 0; background-image: url('https://media.giphy.com/media/3o7aTskHEUdgCQAXde/giphy.gif'); background-size: cover; background-position: center; height: 280px; background-color: #0a0a0f;">
-        <div style="background: rgba(0, 0, 0, 0.75); padding: 60px 20px; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-          <h1 style="font-family: 'Courier New', monospace; font-size: 76px; color: #00ff41; text-shadow: 0 0 20px #00ff41, 0 0 40px #00ff41; letter-spacing: 6px; margin: 0;">ROOPESH</h1>
-          <p style="font-family: 'Courier New', monospace; font-size: 22px; color: #00ff41; text-shadow: 0 0 10px #00ff41; margin: 10px 0 0 0; opacity: 0.9;">
-            // mental status: shipping the things i build :)
-          </p>
-        </div>
-      </td>
-    </tr>
-  </table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Roopesh • Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+font-family:Inter,Arial,sans-serif;color:#fff;background:#050816;overflow-x:hidden}
+#bg{
+position:fixed;inset:0;z-index:-2;
+background:linear-gradient(-45deg,#0b1020,#111827,#172554,#0f172a);
+background-size:400% 400%;
+animation:grad 16s ease infinite}
+@keyframes grad{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}
+canvas{position:fixed;inset:0;z-index:-1}
+nav{
+position:fixed;top:16px;left:50%;transform:translateX(-50%);
+backdrop-filter:blur(14px);
+background:rgba(255,255,255,.08);
+padding:12px 22px;border-radius:999px;border:1px solid rgba(255,255,255,.15)}
+nav a{color:#fff;text-decoration:none;margin:0 12px}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:20px}
+h1{font-size:clamp(3rem,8vw,6rem)}
+.gradtxt{
+background:linear-gradient(90deg,#7dd3fc,#a78bfa,#34d399);
+-webkit-background-clip:text;color:transparent}
+.type{font-size:1.3rem;opacity:.9;height:32px}
+.btns{margin-top:28px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.btn{
+padding:14px 26px;border-radius:14px;border:1px solid rgba(255,255,255,.2);
+background:rgba(255,255,255,.08);color:#fff;text-decoration:none;
+transition:.3s}
+.btn:hover{transform:translateY(-4px) scale(1.03);background:rgba(255,255,255,.16)}
+section{max-width:1100px;margin:auto;padding:90px 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.card{
+background:rgba(255,255,255,.07);
+backdrop-filter:blur(12px);
+border:1px solid rgba(255,255,255,.12);
+border-radius:22px;padding:24px;
+transition:.35s;transform-style:preserve-3d}
+.card:hover{transform:rotateX(6deg) rotateY(-6deg) translateY(-8px)}
+.bar{height:10px;background:#1f2937;border-radius:99px;margin-top:10px}
+.fill{height:100%;border-radius:99px;background:linear-gradient(90deg,#38bdf8,#8b5cf6)}
+footer{text-align:center;padding:40px;opacity:.7}
+.reveal{opacity:0;transform:translateY(30px);transition:1s}
+.reveal.show{opacity:1;transform:none}
+</style>
+</head>
+<body>
+<div id="bg"></div>
+<canvas id="c"></canvas>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+</nav>
+
+<div class="hero">
+<div>
+<h1 class="gradtxt">ROOPESH</h1>
+<div class="type" id="type"></div>
+<div class="btns">
+<a class="btn" href="#">GitHub</a>
+<a class="btn" href="#">LinkedIn</a>
+</div>
+</div>
 </div>
 
-<br/>
+<section id="about" class="reveal">
+<h2>About Me</h2><br>
+<p>AI Developer • Game Developer • Defense Tech Enthusiast. Building modern software with clean design and smooth experiences.</p>
+</section>
 
-<!-- ==================== ANIMATED TYPING (USING EXTERNAL SVG) ==================== -->
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=00FF41&center=true&vCenter=true&width=850&lines=dev.humor+=+'CSS+is+hard+though';dev.motto+=+'Ship+it+and+fix+it+later';dev.status+=+'%3E_+SYSTEM+ONLINE';&background=0A0A12&center=true&vCenter=true&width=850&height=60" alt="Typing SVG" />
-  </a>
+<section id="skills" class="reveal">
+<h2>Skills</h2><br>
+<div class="grid">
+<div class="card"><h3>Python</h3><div class="bar"><div class="fill" style="width:90%"></div></div></div>
+<div class="card"><h3>AI / ML</h3><div class="bar"><div class="fill" style="width:85%"></div></div></div>
+<div class="card"><h3>Unity</h3><div class="bar"><div class="fill" style="width:75%"></div></div></div>
 </div>
+</section>
 
-<br/>
-
-<!-- ==================== SOCIAL BADGES (CYBER STYLED USING INLINE STYLES) ==================== -->
-<div align="center">
-  <span style="background: rgba(0,0,0,0.7); padding: 8px 18px; border-radius: 30px; border: 1px solid #00ff41; color: #00ff41; font-family: 'Courier New', monospace; font-size: 14px; display: inline-block; margin: 4px;">▶ YOUTUBE / DEEPDIVE</span>
-  <span style="background: rgba(0,0,0,0.7); padding: 8px 18px; border-radius: 30px; border: 1px solid #00ff41; color: #00ff41; font-family: 'Courier New', monospace; font-size: 14px; display: inline-block; margin: 4px;">🛰 SIGNAL / LIVE</span>
-  <span style="background: rgba(0,0,0,0.7); padding: 8px 18px; border-radius: 30px; border: 1px solid #00ff41; color: #00ff41; font-family: 'Courier New', monospace; font-size: 14px; display: inline-block; margin: 4px;">🐙 GITHUB / ROOPESH-KOSURI</span>
-  <span style="background: rgba(0,0,0,0.7); padding: 8px 18px; border-radius: 30px; border: 1px solid #00ff41; color: #00ff41; font-family: 'Courier New', monospace; font-size: 14px; display: inline-block; margin: 4px;">⚡ SYSTEM / ONLINE</span>
+<section id="projects" class="reveal">
+<h2>Projects</h2><br>
+<div class="grid">
+<div class="card"><h3>FogWatch</h3><p>Psychological survival horror game.</p></div>
+<div class="card"><h3>AI Assistant</h3><p>Desktop AI with automation.</p></div>
+<div class="card"><h3>Portfolio</h3><p>Animated premium website.</p></div>
 </div>
+</section>
 
-<br/>
+<footer>© 2026 Roopesh Ram Varma Kosuri</footer>
 
-<!-- ==================== BIO CARD (CYBER) ==================== -->
-<div align="center">
-  <table style="background: linear-gradient(145deg, #0a0a12, #111122); border: 2px solid #00ff41; border-radius: 16px; box-shadow: 0 0 30px rgba(0,255,65,0.15), inset 0 0 30px rgba(0,255,65,0.05); padding: 20px; width: 82%;">
-    <tr>
-      <td align="center" style="padding: 20px; background: transparent;">
-        <table style="width: 100%; background: transparent;">
-          <tr>
-            <td style="padding: 8px; font-size: 18px; color: #00ff41; font-family: 'Courier New', monospace; text-align: left;">
-              🎓 <strong>2nd-Year B.Tech CSE (AI & ML) @ LPU</strong>
-            </td>
-            <td style="padding: 8px; font-size: 18px; color: #00ff41; font-family: 'Courier New', monospace; text-align: right;">
-              🚀 <strong>Building faster than professors can grade</strong>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding: 8px; font-size: 18px; color: #00ff41; font-family: 'Courier New', monospace; text-align: left;">
-              📜 <strong>Certified: Prompt Engineering, Cloud, Chaos</strong>
-            </td>
-            <td style="padding: 8px; font-size: 18px; color: #00ff41; font-family: 'Courier New', monospace; text-align: right;">
-              ☕ ⏰ <strong>Runs on caffeine, deadlines, "it works on my machine"</strong>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-</div>
+<script>
+const words=["AI Developer","Game Developer","AIML Student","Future Builder"];
+let wi=0,ci=0,del=false;
+const t=document.getElementById("type");
+setInterval(()=>{
+let w=words[wi];
+if(!del){ci++; if(ci>w.length){del=true;setTimeout(()=>{},500)}}
+else{ci--; if(ci==0){del=false;wi=(wi+1)%words.length}}
+t.textContent=w.slice(0,ci);
+},100);
 
-<br/>
+const obs=new IntersectionObserver(es=>es.forEach(e=>e.target.classList.toggle("show",e.isIntersecting)),{threshold:.2});
+document.querySelectorAll(".reveal").forEach(x=>obs.observe(x));
 
-<!-- ==================== DIAGNOSTICS (CYBER) ==================== -->
-<div align="center">
-  <table style="background: linear-gradient(145deg, #0a0a12, #111122); border: 2px solid #6600ff; border-radius: 16px; box-shadow: 0 0 30px rgba(102,0,255,0.15), inset 0 0 30px rgba(102,0,255,0.05); padding: 20px; width: 82%;">
-    <tr>
-      <td align="center" style="padding: 20px; background: transparent;">
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; font-size: 17px; color: #00ff41; font-family: 'Courier New', monospace;">
-          <span>✅ <strong style="color: #66ff66;">sense_of_humor.dll</strong> loaded</span>
-          <span>✅ <strong style="color: #66ff66;">geopolitics_obsession.exe</strong> running</span>
-          <span>✅ <strong style="color: #66ff66;">caffeine_dependency</strong> critical</span>
-          <span>⚠️ <strong style="color: #ff6666;">sleep_schedule.cfg</strong> not found</span>
-          <span>✅ <strong style="color: #66ff66;">ship_it_anyway.sh</strong> executing</span>
-          <span>📊 <strong style="color: #ffff66;">CSS_centering_attempts.log</strong> too many</span>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<!-- ==================== FLAGSHIP PROJECTS ==================== -->
-<div align="center">
-  <h2 style="color: #00ff41; font-family: 'Courier New', monospace; text-shadow: 0 0 20px #00ff41;">🚀 FLAGSHIP BUILDS</h2>
-</div>
-
-<div align="center">
-  <table style="background-color: #0a0a12; border: 2px solid #00ff41; border-radius: 16px; width: 92%; box-shadow: 0 0 50px rgba(0,255,65,0.08);">
-    <tr>
-      <td width="50%" valign="top" style="padding: 24px; background-color: #0a0a12; border-right: 2px solid #6600ff;">
-        <h3 style="color: #00ff41;">🛰️ SIGNAL</h3>
-        <p style="color: #cccccc;">Real‑time intelligence dashboard. High‑throughput data pipeline with multi‑provider integration and live satellite tracking. Mission control in your browser.</p>
-        <p>
-          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-          <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-          <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-          <img src="https://img.shields.io/badge/CesiumJS-00BFFF?style=flat-square&logo=cesium&logoColor=white" />
-        </p>
-        <a href="https://signal-eta-opal.vercel.app">
-          <img src="https://img.shields.io/badge/Live_Demo-00FF41?style=for-the-badge&logo=vercel&logoColor=black&labelColor=0a0a12" />
-        </a>
-      </td>
-      <td width="50%" valign="top" style="padding: 24px; background-color: #0a0a12;">
-        <h3 style="color: #6600ff;">💻 CODE OS</h3>
-        <p style="color: #cccccc;">Next‑gen collaborative IDE with automated peer‑review workflows. Because manual code reviews were eating up valuable shipping time.</p>
-        <p>
-          <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" />
-          <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-          <img src="https://img.shields.io/badge/Monaco-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />
-          <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" valign="top" style="padding: 24px; background-color: #0a0a12; border-right: 2px solid #6600ff; border-top: 2px solid #6600ff;">
-        <h3 style="color: #00ff41;">🪐 EXOSHIELD</h3>
-        <p style="color: #cccccc;">Astrophysics pipeline for exoplanet detection using advanced statistical classification and feature importance. Built for Bharatiya Antariksh Hackathon 2026.</p>
-        <p>
-          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-          <img src="https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logo=xgboost&logoColor=white" />
-          <img src="https://img.shields.io/badge/SHAP-000000?style=flat-square&logo=shap&logoColor=white" />
-          <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-        </p>
-      </td>
-      <td width="50%" valign="top" style="padding: 24px; background-color: #0a0a12; border-top: 2px solid #6600ff;">
-        <h3 style="color: #6600ff;">🔦 FOGWATCH</h3>
-        <p style="color: #cccccc;">Atmospheric 3D horror game with custom HLSL ocean shaders, volumetric lighting, and immersive storytelling. Solo‑dev in Unity.</p>
-        <p>
-          <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white" />
-          <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" />
-          <img src="https://img.shields.io/badge/HLSL-000000?style=flat-square&logo=microsoft&logoColor=white" />
-          <img src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white" />
-        </p>
-        <a href="#">
-          <img src="https://img.shields.io/badge/Visit_Site-6600ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0a12" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br/>
-
-<!-- ==================== TECH STACK ==================== -->
-<div align="center">
-  <h2 style="color: #00ff41; font-family: 'Courier New', monospace; text-shadow: 0 0 20px #00ff41;">⚡ SYSTEM.TECHSTACK</h2>
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0a0a12" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0a0a12" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=0a0a12" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0a0a12" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black&labelColor=0a0a12" />
-  <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white&labelColor=0a0a12" />
-  <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white&labelColor=0a0a12" />
-  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white&labelColor=0a0a12" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=0a0a12" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white&labelColor=0a0a12" />
-</div>
-
-<br/>
-
-<!-- ==================== STATS + SNAKE ==================== -->
-<div align="center">
-  <h2 style="color: #00ff41; font-family: 'Courier New', monospace; text-shadow: 0 0 20px #00ff41;">📊 SYSTEM.STATS</h2>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Roopesh-kosuri&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0a0a12&title_color=00ff41&text_color=cccccc&icon_color=6600ff&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Roopesh-kosuri&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0a0a12&title_color=00ff41&text_color=cccccc&icon_color=6600ff" width="48%" />
-</div>
-
-<div align="center">
-  <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Roopesh-kosuri&custom_title=Roopesh's%20Contribution%20Graph&bg_color=0a0a12&color=00ff41&line=6600ff&point=00ff41&area_color=6600ff&title_color=00ff41&hide_border=true" width="92%" alt="Contribution Graph" />
-</div>
-
-<!-- ==================== ANIMATED CONTRIBUTION SNAKE ==================== -->
-<div align="center">
-  <br/>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Roopesh-kosuri/Roopesh-kosuri/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Roopesh-kosuri/Roopesh-kosuri/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Roopesh-kosuri/Roopesh-kosuri/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
-</div>
-
-<br/>
-
-<!-- ==================== CYBER FOOTER ==================== -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6600ff,100:0a0a12&height=180&section=footer&text=%3E_%20END%20OF%20LINE&fontSize=28&fontColor=00ff41&animation=twinkling" width="100%" alt="Footer Animation"/>
-</div>
+const c=document.getElementById("c"),ctx=c.getContext("2d");
+function rs(){c.width=innerWidth;c.height=innerHeight}rs();onresize=rs;
+let pts=[...Array(90)].map(()=>({x:Math.random()*c.width,y:Math.random()*c.height,vx:(Math.random()-.5)*0.5,vy:(Math.random()-.5)*0.5}));
+function draw(){
+ctx.clearRect(0,0,c.width,c.height);
+for(let p of pts){
+p.x+=p.vx;p.y+=p.vy;
+if(p.x<0||p.x>c.width)p.vx*=-1;
+if(p.y<0||p.y>c.height)p.vy*=-1;
+ctx.beginPath();ctx.arc(p.x,p.y,2,0,7);ctx.fillStyle="white";ctx.fill();
+}
+for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){
+let a=pts[i],b=pts[j],d=Math.hypot(a.x-b.x,a.y-b.y);
+if(d<120){ctx.strokeStyle="rgba(255,255,255,"+(1-d/120)*.15+")";ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}
+}
+requestAnimationFrame(draw)}
+draw();
+</script>
+</body>
+</html>
