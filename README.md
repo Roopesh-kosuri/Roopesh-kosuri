@@ -18,7 +18,7 @@
 
 <!-- ==================== ANIMATED HEADER ==================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,100:6c2bd9&height=300&section=header&text=ROOPESH.EXE&fontSize=70&fontColor=00ffcc&fontAlignY=40&desc=SYSTEM%20STATUS%3A%20SHIPPING%20CODE&descAlignY=55&descSize=20&animation=fadeIn&stroke=00ffcc" width="100%" alt="Header Animation"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,100:00ffcc&height=300&section=header&text=ROOPESH&fontSize=80&fontColor=00ffcc&fontAlignY=35&desc=mental%20status:%20shipping%20the%20things%20i%20build%20:)&descAlignY=55&descSize=22&animation=fadeIn&stroke=6c2bd9" width="100%" alt="Header Animation"/>
 </div>
 
 <br/>
@@ -26,7 +26,7 @@
 <!-- ==================== ANIMATED TYPING EFFECT ==================== -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=3000&pause=500&color=00FFCC&center=true&vCenter=true&width=800&lines=const+dev+=+new+Engineer();;dev.skills+=+%5B'Python'%2C+'React'%2C+'FastAPI'%5D;;dev.humor+=+'CSS+is+hard+though';;dev.status+=+'Building+the+future';&background=0A0A0F&center=true&vCenter=true&width=800&height=60" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=3000&pause=500&color=00FFCC&center=true&vCenter=true&width=800&lines=const+dev+=+new+Engineer();;dev.skills+=+%5B'Python'%2C+'React'%2C+'FastAPI'%5D;;dev.humor+=+'CSS+is+hard+though';;dev.motto+=+'Ship+it+and+fix+it+later';&background=0A0A0F&center=true&vCenter=true&width=800&height=60" alt="Typing SVG"/>
   </a>
 </div>
 
@@ -48,12 +48,12 @@
 
 <br/>
 
-<!-- ==================== TERMINAL STYLE BIO ==================== -->
+<!-- ==================== TERMINAL BIO ==================== -->
 <div align="center">
-  <table style="background-color: #0A0A0F; border: 1px solid #00FFCC; border-radius: 10px; width: 80%;">
+  <table style="background-color: #0A0A0F; border: 2px solid #00FFCC; border-radius: 12px; width: 80%; box-shadow: 0 0 25px rgba(0,255,204,0.15);">
     <tr>
       <td align="center" style="padding: 20px; background-color: #0A0A0F;">
-        <pre style="color: #00FFCC; font-family: 'Courier New', monospace; text-align: left;">
+        <pre style="color: #00FFCC; font-family: 'Courier New', monospace; text-align: left; margin: 0;">
           <span style="color: #6c2bd9;">┌─────────────────────────────────────────────┐</span>
           <span style="color: #6c2bd9;">│</span> <span style="color: #00FFCC;">roopesh@cyberdeck</span>:<span style="color: #6c2bd9;">~</span><span style="color: #00FFCC;">$</span> <span style="color: #FFFFFF;">whoami</span>          <span style="color: #6c2bd9;">│</span>
           <span style="color: #6c2bd9;">│</span> <span style="color: #FFFFFF;">> 2nd-Year B.Tech CSE (AI & ML) @ LPU</span>    <span style="color: #6c2bd9;">│</span>
@@ -69,12 +69,12 @@
 
 <br/>
 
-<!-- ==================== DIAGNOSTICS WITH HUMOR ==================== -->
+<!-- ==================== DIAGNOSTICS ==================== -->
 <div align="center">
-  <table style="background-color: #0A0A0F; border: 1px solid #6c2bd9; border-radius: 10px; width: 80%;">
+  <table style="background-color: #0A0A0F; border: 2px solid #6c2bd9; border-radius: 12px; width: 80%; box-shadow: 0 0 25px rgba(108,43,217,0.15);">
     <tr>
       <td align="center" style="padding: 20px; background-color: #0A0A0F;">
-        <pre style="color: #00FFCC; font-family: 'Courier New', monospace; text-align: left;">
+        <pre style="color: #00FFCC; font-family: 'Courier New', monospace; text-align: left; margin: 0;">
           <span style="color: #6c2bd9;">┌─────────────────────────────────────────────┐</span>
           <span style="color: #6c2bd9;">│</span> <span style="color: #00FFCC;">roopesh@cyberdeck</span>:<span style="color: #6c2bd9;">~</span><span style="color: #00FFCC;">$</span> <span style="color: #FFFFFF;">./run_diagnostics.sh --module=developer_habits</span> <span style="color: #6c2bd9;">│</span>
           <span style="color: #6c2bd9;">│</span>                                                      <span style="color: #6c2bd9;">│</span>
@@ -93,17 +93,17 @@
 
 <br/>
 
-<!-- ==================== FLAGSHIP PROJECTS WITH ANIMATED BADGES ==================== -->
+<!-- ==================== FLAGSHIP PROJECTS ==================== -->
 <div align="center">
-  <h2 style="color: #00FFCC; font-family: 'Orbitron', sans-serif;">🚀 FLAGSHIP BUILDS</h2>
+  <h2 style="color: #00FFCC; font-family: 'Orbitron', sans-serif; text-shadow: 0 0 10px #00FFCC;">🚀 FLAGSHIP BUILDS</h2>
 </div>
 
 <div align="center">
-  <table style="background-color: #0A0A0F; border: 1px solid #00FFCC; border-radius: 10px; width: 90%;">
+  <table style="background-color: #0A0A0F; border: 2px solid #00FFCC; border-radius: 12px; width: 90%; box-shadow: 0 0 30px rgba(0,255,204,0.1);">
     <tr>
-      <td width="50%" valign="top" style="padding: 20px; background-color: #0A0A0F; border-right: 1px solid #6c2bd9;">
+      <td width="50%" valign="top" style="padding: 20px; background-color: #0A0A0F; border-right: 2px solid #6c2bd9;">
         <h3 style="color: #00FFCC;">🛰️ SIGNAL</h3>
-        <p style="color: #FFFFFF;">Real-time intelligence dashboard. Engineered a high-throughput data pipeline with multi-provider integration and live satellite tracking visualization. Basically a mission control center in your browser.</p>
+        <p style="color: #FFFFFF;">Real‑time intelligence dashboard. High‑throughput data pipeline with multi‑provider integration and live satellite tracking. Mission control in your browser.</p>
         <p>
           <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
           <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
@@ -116,7 +116,7 @@
       </td>
       <td width="50%" valign="top" style="padding: 20px; background-color: #0A0A0F;">
         <h3 style="color: #6c2bd9;">💻 CODE OS</h3>
-        <p style="color: #FFFFFF;">Next-gen collaborative development environment. Built a streamlined IDE workspace featuring automated peer-review workflows, because manual code reviews were eating up valuable shipping time.</p>
+        <p style="color: #FFFFFF;">Next‑gen collaborative IDE with automated peer‑review workflows. Because manual code reviews were eating up valuable shipping time.</p>
         <p>
           <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" />
           <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
@@ -126,9 +126,9 @@
       </td>
     </tr>
     <tr>
-      <td width="50%" valign="top" style="padding: 20px; background-color: #0A0A0F; border-right: 1px solid #6c2bd9; border-top: 1px solid #6c2bd9;">
+      <td width="50%" valign="top" style="padding: 20px; background-color: #0A0A0F; border-right: 2px solid #6c2bd9; border-top: 2px solid #6c2bd9;">
         <h3 style="color: #00FFCC;">🪐 EXOSHIELD</h3>
-        <p style="color: #FFFFFF;">Astrophysics data analysis pipeline. Engineered a predictive modeling system for exoplanet detection using advanced statistical classification and feature importance mapping. Built for the Bharatiya Antariksh Hackathon.</p>
+        <p style="color: #FFFFFF;">Astrophysics pipeline for exoplanet detection using advanced statistical classification and feature importance. Built for Bharatiya Antariksh Hackathon 2026.</p>
         <p>
           <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
           <img src="https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logo=xgboost&logoColor=white" />
@@ -136,9 +136,9 @@
           <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
         </p>
       </td>
-      <td width="50%" valign="top" style="padding: 20px; background-color: #0A0A0F; border-top: 1px solid #6c2bd9;">
+      <td width="50%" valign="top" style="padding: 20px; background-color: #0A0A0F; border-top: 2px solid #6c2bd9;">
         <h3 style="color: #6c2bd9;">🔦 FOGWATCH</h3>
-        <p style="color: #FFFFFF;">Atmospheric 3D horror experience. Solo-developed a Unity-based game featuring custom HLSL ocean shaders, dynamic volumetric lighting, and immersive environmental storytelling.</p>
+        <p style="color: #FFFFFF;">Atmospheric 3D horror game with custom HLSL ocean shaders, volumetric lighting, and immersive storytelling. Solo‑dev in Unity.</p>
         <p>
           <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white" />
           <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" />
@@ -157,7 +157,7 @@
 
 <!-- ==================== TECH STACK ==================== -->
 <div align="center">
-  <h2 style="color: #00FFCC; font-family: 'Orbitron', sans-serif;">⚡ SYSTEM.TECHSTACK</h2>
+  <h2 style="color: #00FFCC; font-family: 'Orbitron', sans-serif; text-shadow: 0 0 10px #00FFCC;">⚡ SYSTEM.TECHSTACK</h2>
 </div>
 
 <div align="center">
@@ -177,7 +177,7 @@
 
 <!-- ==================== STATS & ACTIVITY ==================== -->
 <div align="center">
-  <h2 style="color: #00FFCC; font-family: 'Orbitron', sans-serif;">📊 SYSTEM.STATS</h2>
+  <h2 style="color: #00FFCC; font-family: 'Orbitron', sans-serif; text-shadow: 0 0 10px #00FFCC;">📊 SYSTEM.STATS</h2>
 </div>
 
 <div align="center">
