@@ -1,20 +1,20 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,25:0d3b4f,50:0f6d8f,75:00a8cc,100:00d4ff&height=280&section=header&text=ROOPESH%20KOSURI&fontSize=58&fontColor=ffffff&fontAlignY=35&desc=AI%20Engineer%20%C2%B7%20Full-Stack%20Builder%20%C2%B7%20DeepDive&descAlignY=55&descSize=19&descColor=7ee8fa&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,20:0d2b45,40:0d3b4f,60:0f5d7f,80:0d8fc4,100:00d4ff&height=280&section=header&text=ROOPESH%20KOSURI&fontSize=58&fontColor=ffffff&fontAlignY=35&desc=AI%20Engineer%20%C2%B7%20Coding%20Student%20%C2%B7%20DeepDive&descAlignY=55&descSize=19&descColor=7ee8fa&animation=fadeIn" width="100%"/>
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=23&duration=3200&pause=900&color=00D4FF&center=true&vCenter=true&width=800&lines=Building+SIGNAL+%E2%80%94+tactical+intel+platform;Shipping+CODE+OS+%E2%80%94+multi-agent+AI+IDE;2nd-Year+B.Tech+CSE+(AI+%26+ML)+%40+LPU;CSS+is+hard+though." alt="Typing SVG" /></a>
 
 <br/>
 
 <a href="https://www.youtube.com/@DeepDive-channel"><img src="https://img.shields.io/badge/YouTube-DeepDive-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0a0e17" /></a>
-<a href="https://signal-eta-opal.vercel.app"><img src="https://img.shields.io/badge/SIGNAL-Live_Demo-00D4FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0e17" /></a>
-<a href="https://github.com/Roopesh-kosuri"><img src="https://img.shields.io/badge/GitHub-Roopesh--kosuri-39FF14?style=for-the-badge&logo=github&logoColor=black&labelColor=0a0e17" /></a>
+<a href="https://roopesh-kosuri.github.io/signal-website/"><img src="https://img.shields.io/badge/SIGNAL-Live_Demo-00D4FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0e17" /></a>
+<a href="https://github.com/Roopesh-kosuri"><img src="https://img.shields.io/badge/GitHub-Roopesh--kosuri-9D4EDD?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0e17" /></a>
 <a href="mailto:Roopeshramvarma@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-white?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e17" /></a>
 
 <br/>
 
-<img src="https://img.shields.io/badge/%F0%9F%8E%93_CSE_(AI_%26_ML)-LPU_%C2%B7_28-0a0e17?style=flat-square&labelColor=00d4ff&color=0a0e17" />
-<img src="https://img.shields.io/badge/%F0%9F%93%9C_Certified-Prompt_Eng_%C2%B7_Cloud_%C2%B7_Fabric-0a0e17?style=flat-square&labelColor=39ff14&color=0a0e17" />
+<img src="https://img.shields.io/badge/%F0%9F%8E%93_CSE_(AI_%26_ML)-LPU_%C2%B7_28-0a0e17?style=flat-square&labelColor=00a8cc&color=0a0e17" />
+<img src="https://img.shields.io/badge/%F0%9F%93%9C_Certified-Prompt_Eng_%C2%B7_Cloud_%C2%B7_Fabric-0a0e17?style=flat-square&labelColor=0d6efd&color=0a0e17" />
 
 </div>
 
@@ -41,7 +41,7 @@ I run **DeepDive** on YouTube — defense tech, space, and geopolitics. Currentl
 
 `Python` `FastAPI` `React` `CesiumJS`
 
-[**→ Live Demo**](https://signal-eta-opal.vercel.app) · [Repo](https://github.com/Roopesh-kosuri/SIGNAL)
+[**→ Live Demo**](https://roopesh-kosuri.github.io/signal-website/) · [Repo](https://github.com/Roopesh-kosuri/SIGNAL)
 
 </td>
 <td width="50%" valign="top">
